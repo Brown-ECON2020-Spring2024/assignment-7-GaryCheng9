@@ -15,5 +15,5 @@ test_that("gdpPercap has correct range", {
 test_that("continent has correct values", {
     data <- fread("../output/data/gapminder.csv")
     
-    expect_values(data = data, continent, c("Europe", "Africa", "Americas", "Oceania"))
+    expect_values(data = data, continent, c("Asia", "Europe", "Africa", "Americas", "Oceania"))
 })
